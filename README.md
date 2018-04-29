@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+##-----------Details/Steps of Visual Regression Testing using Backstopjs---------------
+
+##Installing backstop js using npm as global dependency
+
+1. Run `npm install -g backstopjs` to install backstopjs as your global dependency
+2. cd to your project's directory and run... `backstop init` to initialize a backstop config file
+3. Start writing test cases for your application
+4. Command to run the test cases `backstop test`
+5. For the first time it will tell you that there are no reference to compare.
+6. If you feel that the screen shots captured by backstop in the mentioned folder are accureate and you want to set them as reference then Run `backstop approve`
+7. If you feel something is wrong then don't run `backstop approve` instead make changes and run  `backstop test` again
+8. Run  `backstop approve` only when you are sure that the sceenshots should be set as a reference for your application. 
+4. Enjoy!!!!!!!!!!

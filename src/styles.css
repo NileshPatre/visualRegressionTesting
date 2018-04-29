@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+.fit-to-window{
+    height:100%;
+    width:100%;
+}
+.banner{
+    
+    background-color: #0043ff;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    width:100%;
+    text-align : center;
+}
+
+.custom-nav-tab{
+    background-color: white;
+    top: 12%;
+    position: relative;
+    padding: 10px;
+    float: right;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.custom-nav-bar{
+    height:50px;
+    width:100%;
+    background-color: red;
+    text-align: center;
+}
+.page-title{
+    font-size: 30px;
+    color:white;
+}
+.contact-style{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 59px;
+    color: blue;
+    background-color: #16f505;;
+}
